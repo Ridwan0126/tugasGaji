@@ -1,0 +1,52 @@
+.detailbg h2 {
+  text-align: center;
+}
+
+.detail-container {
+  position: absolute;
+  top: 310px;
+  transform: translateX(-50%);
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 5px 15px 4px rgba(49, 45, 29, 0.35);
+}
+
+.rowDetail {
+  display: flex;
+  min-height: 30px;
+}
+
+.cellDetail {
+  flex: 4;
+  border-bottom: 1px solid #dddddd;
+  font-family: "Malgun Gothic";
+  font-size: 17px;
+  font-weight: 530;
+}
+
+.cellDetail.header {
+  text-align: center;
+  background-color: #090707;
+  color: #ffffff;
+  font-family: "Malgun Gothic";
+  font-weight: bold;
+  height: 50px;
+  font-size: 19px;
+  border: none;
+  padding-left: 7px;
+}
+
+.rowDetail:first-child .cellDetail {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.rowDetail .cellDetail:not(.header) {
+  padding: 10px 5px;
+}
+
+.rowDetail:nth-of-type(even) {
+  background-color: #f3f3f3;
+}

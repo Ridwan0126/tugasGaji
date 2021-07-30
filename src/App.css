@@ -1,0 +1,19 @@
+.header {
+  height: 70px;
+  border: 1px solid grey;
+}
+
+.table-list {
+  width: 400px;
+}
+
+.table-list td,
+.table-list th {
+  border: 1px solid black;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./1.png);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.624);
+}

@@ -1,0 +1,10 @@
+.menu.active {
+  background-color: rgb(92, 92, 92);
+}
+h4 {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.357);
+  text-align: left;
+  font-size: 1.5em;
+  margin-bottom: 0px;
+}
